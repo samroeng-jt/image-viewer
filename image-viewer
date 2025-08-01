@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>กรอกรหัสเพื่อดูรูปภาพ</title>
+    <meta charset="UTF-8">
+    <style>
+      body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+      input { padding: 10px; font-size: 16px; width: 200px; }
+      button { padding: 10px 20px; font-size: 16px; }
+    </style>
+  </head>
+  <body>
+    <h2>กรอกรหัสเพื่อดูรูปภาพของคุณ</h2>
+    <form action="https://script.google.com/macros/s/AKfycbyoqgMYqY8d1Lrri7tcK8ob7MbVuNdJejuCYP4XqRBRK4EQoqlH825lg0dUIzgz10Sk/exec" method="GET">
+      <input type="text" name="code" placeholder="เช่น AB123" required>
+      <br><br>
+      <button type="submit">ดูภาพ</button>
+    </form>
+  </body>
+</html>
